@@ -79,7 +79,7 @@ public class DeviceServiceImpl implements DeviceService{
 
         return webClient.get()
                 .uri(uriBuilder -> uriBuilder
-                        .path(ApiPaths.PATH_DEVICE + ApiPaths.PATH_NEARBY)
+                        .path(ApiPaths.PATH_DEVICE + ApiPaths.WITHOUT_VEHICLE)
                         .queryParams(queryParams)
                         .build())
                 .retrieve()

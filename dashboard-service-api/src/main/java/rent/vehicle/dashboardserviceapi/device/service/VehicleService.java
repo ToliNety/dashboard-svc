@@ -19,7 +19,7 @@ public interface VehicleService {
 
     Mono<CustomPage<VehicleDto>> getListVehiclesByParam(ListVehiclesRequest listVehiclesRequest, Pageable pageable);
 
-    void removeVehicle(long id);
+    Mono<Void> removeVehicle(long id);
 
     Mono<CustomPage<VehicleDto>> findNearbyVehicles(PointFromLatLonDto pointFromLatLonDto, long radiusMeters, Pageable pageable);
 }

@@ -15,7 +15,7 @@ import rent.vehicle.dto.ListVehiclesRequest;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/support/v1/vehicle")
+@RequestMapping("/support/v1/vehicles")
 public class VehicleController {
     private final VehicleService vehicleService;
 
