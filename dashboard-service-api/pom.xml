@@ -69,11 +69,11 @@
 			<version>3.2.2</version>
 		</dependency>
 
-		<!-- device-service-library -->
+		<!-- dto, enum, exceptions -->
 		<dependency>
 			<groupId>rent.vehicle</groupId>
-			<artifactId>device-service-model</artifactId>
-			<version>1.3-SNAPSHOT</version>
+			<artifactId>dashboard-service-model</artifactId>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
