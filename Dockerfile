@@ -12,6 +12,6 @@ FROM eclipse-temurin:21-jdk
 WORKDIR /app
 
 # Копируем итоговый JAR (замени путь и имя JAR при необходимости)
-COPY --from=builder /app/dashboard-service-app/target/dashboard-service-app-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=builder /app/dashboard-service-api/target/dashboard-service-api-1.0-SNAPSHOT.jar app.jar
 
 CMD ["java", "-jar", "app.jar"]
